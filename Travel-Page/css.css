@@ -1,0 +1,175 @@
+
+body{
+  font-family: "Quicksand", sans-serif;
+  margin: 0px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+header li a{
+  text-decoration: none;
+  color: rgb(255, 251, 0);
+  font-weight: 400;
+  font-size: 20px;
+  padding: 10px;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.2);
+}
+header li a:hover{
+  color: black;
+  background-color:rgb(255, 251, 0) ;
+  border-radius: 6px;
+}
+
+header ul{
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  justify-content: flex-end;
+}
+
+#highlights{
+  background-color: rgb(174, 255, 246);
+ padding: 24px;
+}
+
+#highlights h1{
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+#hero{
+  height: 800px;
+  background-image: url(images/ocean.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#page-logo a{
+  font-family: "Oleo Script", sans-serif;
+  font-size: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  color: rgb(255, 255, 159);
+}
+
+
+.container{
+  background-color: rgba(0, 0, 0, 0.614);
+  padding:50px 0px;
+  margin: 0px auto;
+  width: 900px;
+  border-radius: 8px;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.416);
+  text-align: center;
+  position: relative;
+  top:200px;
+  color: aliceblue;
+}
+.container h1{
+  font-size: 50px;
+  margin:0px;
+
+}
+.container p{
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.container a{
+  text-decoration: none;
+  padding: 12px 24px;
+  background-color: yellow;
+  border-radius: 6px;
+  margin-top: 10px;
+  display: inline-block;
+  font-weight: 700;
+  color: black;
+  font-size: 24px;
+  border: solid 2px black;
+}
+
+.container a:hover{
+  background-color: rgb(255, 213, 0);
+  border: solid 2px black;
+}
+
+#highlights ul{
+  list-style: none;
+  margin: 0px;
+  padding:0px;
+  
+}
+#destinations{
+  display: flex;
+  margin: auto;
+  width: 100%;
+}
+#destinations li{
+text-align: center;
+width: 90%;
+
+margin-bottom: 40px;
+}
+
+.destination img {
+  height: 200px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 2px 3px 7px rgba(6, 0, 0, 0.658);
+  object-fit: cover;
+
+}
+
+.destination p {
+  color: rgb(101, 101, 101);
+}
+
+strong{
+  color: rgb(0, 197, 131);
+}
+
+.destination{
+  margin : 0px  20px;
+}
+
+.footer-social{
+  background-color: rgb(0, 0, 0);
+}
+
+
+
+.social{
+display: flex;
+justify-content: center;
+width: 100%;
+box-sizing: border-box;
+}
+
+.social li{
+  list-style: none;
+  margin: 0px 30px;
+}
+
+footer ul{
+  margin: 0px;
+  padding: 20px;
+
+}
+
+
+.social img{
+  height: 60px;
+  width: 100%;
+  }
