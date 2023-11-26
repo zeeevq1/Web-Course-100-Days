@@ -1,0 +1,13 @@
+body{
+  background-color: rgb(29, 29, 29);
+  margin: 8rem;
+}
+
+.form-control-inline{
+  display: flex;
+}
+
+.form-control-inline input{
+  width: auto;
+  margin-right: 0.5rem;
+}

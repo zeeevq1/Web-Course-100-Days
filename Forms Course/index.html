@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML Forms</title>
 </head>
 <body>
-    
+    <form action="/user-data" method="GET">
+
+        <label for="username">Your name</label>
+        <input type="text" name"user-name" id="username">
+        <label for="useremail">Your email address</label>
+        <input type="email" name="user-email" id="useremail">
+        <label for="userage">Your age</label>
+        <input type="number" name="user-age" id="userage" required min="18" max="100">
+        <label for="userpassword">Your Password</label>
+        <input type="password" name="user-password" id="userpassword" novalidate>
+        <label for="userdate">Your data</label>
+        <input type="date" name="user-date" id="userdate" required min="1921-01-01" max="2003-01-01">
+        <hr>
+        <h2>How should we verify your account?</h2>
+
+        <div class="form-control-inline">
+            <input type="radio" name="verify"  id="verify-text-message" value="text-message" required minlength="7">    
+            <label for="verify-text-message">Via text message (SMS)</label>
+        </div>
+       
+        <div class="form-control-inline">
+            <input type="radio" name="verify" id="verify-phone" value="phone" >
+            <label for="verify-phone">Via text phone</label>
+        </div>
+      
+        <div class="form-control-inline">
+            <input type="radio" name="verify" id="verify-email" value="email">
+            <label for="verify-email">Via an email</label>
+        </div>
+
+        <button>Submit</button>
+
+    </form>
 </body>
 </html>
